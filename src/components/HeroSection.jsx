@@ -234,11 +234,11 @@ export default function HeroSection() {
 
               {/* Badge overlay */}
               <motion.div
-                className="absolute -bottom-4 left-1/2 -translate-x-1/2 glass-blue px-6 py-3 rounded-xl whitespace-nowrap"
+                className="absolute -bottom-4 left-1/2 -translate-x-1/2 glass-blue px-3 sm:px-6 py-2 sm:py-3 rounded-xl whitespace-nowrap max-w-[90%]"
                 animate={{ y: [0, -6, 0] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
               >
-                <span className="font-rajdhani font-bold text-[#00AEEF] text-sm tracking-wider uppercase">
+                <span className="font-rajdhani font-bold text-[#00AEEF] text-xs sm:text-sm tracking-wider uppercase">
                   ⚡ +500 Alunos Transformados
                 </span>
               </motion.div>
@@ -248,7 +248,7 @@ export default function HeroSection() {
 
         {/* Stats */}
         <motion.div
-          className="mt-20 grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mx-auto lg:mx-0"
+          className="mt-20 pb-24 sm:pb-0 grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mx-auto lg:mx-0"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.6 }}
@@ -269,7 +269,7 @@ export default function HeroSection() {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white/30"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 hidden sm:flex flex-col items-center gap-2 text-white/30"
         animate={{ y: [0, 8, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
