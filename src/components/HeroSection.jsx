@@ -239,7 +239,7 @@ export default function HeroSection() {
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
               >
                 <span className="font-rajdhani font-bold text-[#00AEEF] text-xs sm:text-sm tracking-wider uppercase">
-                  ⚡ +500 Alunos Transformados
+                  +500 Alunos Transformados
                 </span>
               </motion.div>
             </div>
