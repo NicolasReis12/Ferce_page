@@ -7,7 +7,7 @@ export const HOTMART_URL =
   'https://hotmart.com/product/matheus-ferce-consultoria';
 
 /** Número WhatsApp (55 + DDD + número, sem espaços ou hífen) */
-const WHATSAPP_NUMBER  = '5511999999999';
+const WHATSAPP_NUMBER  = '553291076197';
 const WHATSAPP_MESSAGE = encodeURIComponent(
   'Olá Mateus! Vi seu site e tenho interesse na consultoria. Pode me dar mais detalhes?'
 );
